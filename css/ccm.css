@@ -119,11 +119,23 @@ body {
     margin-top: 5px;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #0F3E64;
+    border-color: #0F3E64;
+}
+
 .ramen-shop {
-    background-image: url(../img/ramen-shop.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background: url(../img/ramen-shop.png) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+/*    ￼    background: url(../img/hero.png) no-repeat center;*/
+/*￼    background-size: cover;*/
+/*￼    height: 620px;*/
+/*￼    background-position: center;*/
+
 }
 
 .scientific h3 {
