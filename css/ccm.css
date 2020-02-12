@@ -18,6 +18,7 @@ body {
     font-size: 18px;
     color: #615e62;
 }
+
 .hero-image {
     position: relative;
     background-image: linear-gradient(to bottom, #D24B2C, #D24B2C);
@@ -119,6 +120,28 @@ body {
     margin-top: 5px;
 }
 
+.programa {
+    background-color: #D24B2C;
+    min-height: 340px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.programa h1 {
+    color: white;
+}
+
+.programa h4 {
+    color: white;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
 .btn-secondary {
     color: #fff;
     background-color: #D24B2C;
@@ -131,27 +154,7 @@ body {
     border-color: #0F3E64;
 }
 
-.card {
-￼    border: 1px solid rgba(205,75,45, 0.125);
-    border: 1px solid rgba(205,75,45,.125);
-    border-top-color: rgba(205,75,45,.125);
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-color: rgba(205,75,45,.125);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-color: rgba(205,75,45,.125);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: rgba(205,75,45,.125);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-}
+
 
 .ramen-shop {
     background: url(../img/ramen-shop.png) no-repeat center;
